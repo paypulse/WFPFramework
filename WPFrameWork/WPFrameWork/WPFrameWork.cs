@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace WPFrameWork
 {
-    class WPFrameWork
+    
+    public class WPFrameWork
     {
+        [STAThread]
+        public static void Main()
+        {
+
+        }
     }
 }
